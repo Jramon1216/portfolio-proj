@@ -1,0 +1,24 @@
+article{
+    display: block;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.subHeading{
+    margin: 0 10px;
+}
+
+.articleText{ 
+    position: static;
+    width: 50%;
+    margin: 0 10px;
+    box-sizing: content-box;
+    z-index: auto;
+
+}
+
+.projectSection > ul{
+    list-style: none;
+}
