@@ -1,6 +1,6 @@
 import {Routes, Route} from 'react-router-dom';
 import './App.module.scss';
-import { Nav, About, Skills, Contact, Home } from './views'
+import { Nav, About, Projects, Contact, Home } from './views'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route path="/skills" element={<Skills/>}/>
+            <Route path="/projects" element={<Projects/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
     </>
