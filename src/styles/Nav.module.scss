@@ -1,0 +1,57 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;  
+    width: 100%;
+    z-index: var(--z-fixed);
+    background-color: black;
+    border-bottom: 3px;
+    border-bottom-color: #FF1342;
+    border-bottom-style: solid;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 1em;
+    
+}
+
+h1{
+    color: white
+}
+
+ul{ 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+}
+
+
+li {
+    list-style: none;
+}
+
+.linkStyles {
+    border-radius: 10px;
+    transition: background-color 0.5s linear;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    
+    &:hover {
+        background-color: #FF1342;  
+    }
+
+}
+
+.activeLink {
+    background-color: #FF1342;
+}
+
+
+
+
