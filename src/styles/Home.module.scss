@@ -1,24 +1,35 @@
-article{
-    display: block;
-}
-
 h2{
     text-decoration: underline;
 }
 
 .subHeading{
-    margin: 0 10px;
+    margin: 10px 10px;
+    text-align: center;
 }
 
-.articleText{ 
-    position: static;
-    width: 50%;
-    margin: 0 10px;
+.aboutMeImg, .aboutMeText{
+    margin: 0 auto;
+}
+
+.aboutMeImg {
+    padding-top: 70px;
+    display: block;
+    background-size: cover;
+    background-position: center;    
+}
+
+.aboutMeText{
     box-sizing: content-box;
-    z-index: auto;
-
+    max-width: 90%;
+    min-width: 50%;
+    text-align: center;
 }
 
-.projectSection > ul{
-    list-style: none;
+.projImg{
+    margin-top: 10px;
+}
+
+.projDesc{
+    margin-top: 5px;
+    margin-left: 50px;
 }
