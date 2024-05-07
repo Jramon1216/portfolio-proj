@@ -3,21 +3,28 @@ section {
 }
 
 .projectEntry{
-    margin: 0 20% ;
-    clear: both;
+    margin: 0 10% ;
 }
 
 .textContainer{
     float: left;
+    width: 50%;
 }   
 
+.textContainer, h2{
+    margin:auto;
+}
+
 .imageContainer{
-    float: left;
-    margin-left: 20px;
+    float: right;
     border-style: ridge;
 }
 
 .svgLogos{
     text-align: center;
     clear: both;
+}
+
+.projectIntro{
+    text-align: center;
 }
