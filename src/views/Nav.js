@@ -14,9 +14,9 @@ export default function Nav(){
             <nav>
                 <h1>Jonathan Ramon</h1>
                 <ul>
-                    <li><NavLink exact activeClassName={styles.activeLink} className={styles.linkStyles} to="/home">Home</NavLink></li>
-                    <li><NavLink activeClassName={styles.activeLink} className={styles.linkStyles} to="/projects">Projects</NavLink></li>
-                    <li><NavLink activeClassName={styles.activeLink} className={styles.linkStyles} to="/contact">Contact</NavLink></li>
+                    <li><NavLink exact activeClassName={styles.activeLink} className={styles.linkStyles} to="portfolio-proj/home">Home</NavLink></li>
+                    <li><NavLink activeClassName={styles.activeLink} className={styles.linkStyles} to="portfolio-proj/projects">Projects</NavLink></li>
+                    <li><NavLink activeClassName={styles.activeLink} className={styles.linkStyles} to="portfolio-proj/contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </header>
