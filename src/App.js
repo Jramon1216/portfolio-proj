@@ -8,7 +8,7 @@ function App() {
     <>
       <Nav/>
           <Routes>
-            <Route path="portfolio-proj/" element={<Navigate to="/home"/>} />
+            <Route exact path="portfolio-proj/" element={<Navigate to="/home"/>} />
             <Route path="portfolio-proj/home" element={<Home/>} />
             <Route path="portfolio-proj/projects" element={<Projects/>} />
             <Route path="portfolio-proj/contact" element={<Contact/>} />
