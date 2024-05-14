@@ -8,10 +8,10 @@ function App() {
     <>
       <Nav/>
           <Routes>
-            <Route exact path="/" element={<Navigate to="portfolio-proj/home"/>} />
-            <Route path="portfolio-proj/home" element={<Home/>} />
-            <Route path="portfolio-proj/projects" element={<Projects/>} />
-            <Route path="portfolio-proj/contact" element={<Contact/>} />
+            <Route exact path="/portfolio-proj" element={<Navigate to="/portfolio-proj/home"/>} />
+            <Route path="/portfolio-proj/home" element={<Home/>} />
+            <Route path="/portfolio-proj/projects" element={<Projects/>} />
+            <Route path="/portfolio-proj/contact" element={<Contact/>} />
           </Routes>
     </>
   );
