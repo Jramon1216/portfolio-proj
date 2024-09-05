@@ -35,14 +35,16 @@ export default function Home() {
                     <summary>Sample Project</summary>
                     <table>
                         <tbody>
-                            <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
-                            <td>
-                                <p className={styles.projDesc}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
-                                    Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
-                                </p>
-                            </td>
+                            <tr>
+                                <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
+                                <td>
+                                    <p className={styles.projDesc}>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
+                                        Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </details>
@@ -50,14 +52,16 @@ export default function Home() {
                     <summary>Sample Project</summary>
                     <table>
                         <tbody>
-                            <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
-                            <td>
-                                <p className={styles.projDesc}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
-                                    Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
-                                </p>
-                            </td>
+                            <tr>
+                                <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
+                                <td>
+                                    <p className={styles.projDesc}>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
+                                        Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </details>
@@ -65,14 +69,16 @@ export default function Home() {
                     <summary>Sample Project</summary>
                     <table>
                         <tbody>
-                            <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
-                            <td>
-                                <p className={styles.projDesc}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
-                                    Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
-                                </p>
-                            </td>
+                            <tr>
+                                <td><img src="https://placehold.co/300x200" className={styles.projImg} alt=""/></td>
+                                <td>
+                                    <p className={styles.projDesc}>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nulla facilisi. Integer feugiat, nisl vel ullamcorper vestibulum, tortor sapien tristique dolor, sit amet congue nisl quam vel augue.
+                                        Sed consectetur, quam nec fringilla tincidunt, elit lectus laoreet erat, ut cursus ligula tortor in justo. 
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </details>

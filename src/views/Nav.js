@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { NavLink } from 'react-router-dom';
 
 import styles from'../styles/Nav.module.scss'
@@ -7,7 +7,7 @@ import styles from'../styles/Nav.module.scss'
  * Typing animation for your name - https://github.com/ssbeefeater/react-typed
  */
 
-export default function Nav(){
+function Nav(){
     return(
         <header>
             <nav>
@@ -20,4 +20,6 @@ export default function Nav(){
             </nav>
         </header>
     )
-}
+};
+
+export default memo(Nav);
