@@ -1,35 +1,47 @@
-h2{
-    text-decoration: underline;
-}
-
-.subHeading{
-    margin: 10px 10px;
-    text-align: center;
-}
-
-.aboutMeImg, .aboutMeText{
-    margin: 0 auto;
-}
-
-.aboutMeImg {
-    padding-top: 70px;
-    display: block;
-    background-size: cover;
-    background-position: center;    
-}
-
-.aboutMeText{
-    box-sizing: content-box;
-    max-width: 90%;
+#aboutMeContainer {
+    margin: 70px 0;
+    max-width: 100%;
     min-width: 50%;
-    text-align: center;
+    display: flex;
+    
+    #aboutMeDiv{
+        padding: 300px 0;
+        
+        #subHeading{
+            margin: 10px 10px;
+            text-align: center;
+            text-decoration: underline;
+            margin-right: 50px;
+        }
+        
+        #aboutMeText {
+            box-sizing: content-box;
+            max-width: 100%;
+            min-width: 50%;
+            text-align: center;
+            margin-right:10px;
+        }
+        
+        
+    }
+    
+    #aboutMeImg {
+        flex: 1;
+        max-width: 100%;
+        max-height: 850px;
+    }
 }
 
-.projImg{
-    margin-top: 10px;
-}
 
-.projDesc{
-    margin-top: 5px;
-    margin-left: 50px;
+.projectContianer {
+    
+    .projImg{
+        margin-top: 10px;
+    }
+    
+    .projDesc{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+
 }
