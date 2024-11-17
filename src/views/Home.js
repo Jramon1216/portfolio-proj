@@ -2,10 +2,10 @@ import React from "react";
 import styles from '../styles/Home.module.scss'
 import professionalPhoto from '../assets/img/professionalPhoto.png';
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 /**
     MY PROJECTS SECTION
-    * TODO: START WORK ON CONTACT ME CONTAINER
     * Look into a light mode feature (low priority)
 */
 
@@ -34,7 +34,8 @@ export default function Home() {
                 <h2 className={styles.subHeading} id={styles.projectsSubheading}>My Projects</h2>
                 <Projects />
             </section>
-            <section>
+            <section id={styles.contactMeContainer}>
+                <Contact/>
             </section>
 
         </>
