@@ -1,3 +1,8 @@
+.subHeading {
+  text-align: center;
+  text-decoration: underline;
+}
+
 #aboutMeContainer {
   margin: 70px 0;
   max-width: 100%;
@@ -11,12 +16,6 @@
     flex: 1;
     max-width: 1000px;
 
-    #subHeading {
-      text-align: center;
-      text-decoration: underline;
-      margin-right: 50px;
-    }
-
     #aboutMeText {
       box-sizing: content-box;
       max-width: 100%;
@@ -26,38 +25,15 @@
     }
   }
 
-  #skillsDiv {
-
-    #skillsSubheading {
-        text-decoration: underline;
-        text-align: center;
-        margin-right: 50px;
-    }
-    
-}
-
   #aboutMeImg {
     flex: 0 0 auto;
     max-width: 484px;
     max-height: 850px;
-    margin-right: 10px;
   }
 }
 
-#projectContianer {
-  max-width: 1150px;
-  align-items: center;
-
-  .projectRow {
-    align-content: center;
-
-    .projImg {
-      margin-top: 10px;
-    }
-
-    .projDesc {
-      margin-top: 5px;
-      margin-left: 50px;
-    }
+#projectsContainer {
+  #projecsSubHeading {
+    margin: 50px 0;
   }
 }
