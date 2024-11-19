@@ -62,7 +62,7 @@ export default function Projects() {
                     <Typography>Collapsible Group Item #1</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400'></img>
+                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
                     <Typography>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                         malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
@@ -76,7 +76,7 @@ export default function Projects() {
                     <Typography>Collapsible Group Item #2</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400'></img>
+                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
                     <Typography>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                         malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
@@ -90,7 +90,7 @@ export default function Projects() {
                     <Typography>Collapsible Group Item #3</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400'></img>
+                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
                     <Typography>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                         malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor

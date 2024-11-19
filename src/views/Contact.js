@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from '../styles/Contact.module.scss'
-import linkedInSVG from '../assets/svg/linkedin-logo-fill-svgrepo-com.svg';
+import linkedInSVG from '../assets/svg/linkedIn.svg';
+import githubSVG from '../assets/svg/github.svg';
+import emailSVG from '../assets/svg/email.svg';
+
+/**
+ 
+ */
 
 export default function Contact(){
     return(
@@ -8,9 +14,9 @@ export default function Contact(){
             <h1>Contact Me!</h1>
             <section>
                 <div className={styles.imgContainer}>
-                    <img src={linkedInSVG} alt="LinkedIn Logo"/>
-                    <img src="" alt="Github Logo"/>
-                    <img src="" alt="Email Icon"/>
+                    <img src={linkedInSVG} alt="LinkedIn Logo"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/365515/linkedin-logo-thin */}
+                    <img src={githubSVG} alt="Github Logo"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/447165/github-outline */}
+                    <img src={emailSVG} alt="Email Icon"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/498800/email */}
                 </div>
             </section>
             <hr width={1000}></hr>
