@@ -16,11 +16,14 @@ export default function Home() {
                 <div id={styles.aboutMeDiv}>
                     <h2 className={styles.subHeading}>Hello my name is Jonathan Ramon</h2>
                     <p id={styles.aboutMeText}>
-                        Welcome to my webpage! I'm a dedicated Web/Software developer with nearly two years of experience seeking new opportunities in the field.
-                        My passion for coding drives me to continually expand my skill set by exploring various technologies.
-                        From mastering languages like JavaScript and frameworks like React to delving into backend development with Python Django, I thrive on learning and implementing new tools to enhance my abilities.
-                        With a strong foundation in web development, I am committed to delivering high-quality solutions and contributing effectively to projects.
-                        Explore my portfolio to see examples of my work and get in touch to discuss potential collaborations or job opportunities.
+                        Welcome to my webpage! 
+
+                        I am a results-oriented Full Stack Web Developer with a solid foundation in cloud computing and software development. 
+                        Skilled in front and backend development, I specialize in creating scalable, reliable, and efficient solutions that drive user engagement and streamline data retrieval. 
+                        In my recent roles, I’ve successfully managed bi-weekly releases, developed frontend features with React, and engineered backend solutions with Django, which have enhanced application performance and user satisfaction.
+                        With an AWS Cloud Practitioner certification, I bring hands-on experience in deploying scalable applications on the cloud and managing resources to maximize performance. 
+                        My expertise extends across various technologies, including React, Django, and AWS, and I'm passionate about implementing strategies that reduce post-deployment issues and ensure the highest code quality.
+
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
                     <code>SVG'S GO HERE</code>

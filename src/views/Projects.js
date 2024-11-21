@@ -6,6 +6,9 @@ import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import styles from '../styles/Projects.module.scss';
+import simpleChat from '../assets/img/project/simpleChat.png'
+import todo from '../assets/img/project/todo.png'
+import cardFlip from '../assets/img/project/cardFlip.png'
 
 
 const Accordion = styled((props) => (
@@ -59,43 +62,37 @@ export default function Projects() {
         <div>
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                    <Typography>Collapsible Group Item #1</Typography>
+                    <Typography>Python Django ToDo List w/ Authentication</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
+                    <img src= {todo} className={styles.projectImg}></img>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget.
+                        This project was my first experience using Django's class-based views and Template Language to create a static web page. 
+                        I implemented some unique features and took a different approach from the tutorial to deepen my understanding of Django.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
             <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                 <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                    <Typography>Collapsible Group Item #2</Typography>
+                    <Typography>Simple Chat APP</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
+                    <img src= {simpleChat} className={styles.projectImg}></img>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget.
+                        Developed as part of a job interview, this project is a front-end mock-up of a messaging service using Django endpoints. 
+                        Built in just 5 days, it employs axios and async-await for backend communication and message retrieval. As well as a couple AWS services like EC2, S3, RDS, and CDN.
+                        I plan to make another version with a local API to simulate this project as well as add some more features
                     </Typography>
                 </AccordionDetails>
             </Accordion>
             <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                    <Typography>Collapsible Group Item #3</Typography>
+                    <Typography>Card Flip demo</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src='https://placehold.co/600x400' className={styles.projectImg}></img>
+                    <img src= {cardFlip} className={styles.projectImg}></img>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget.
+                        Created as a suggestion for a colleague's portfolio, this Card Flip demo showcases interactive and engaging front-end animation.
                     </Typography>
                 </AccordionDetails>
             </Accordion>

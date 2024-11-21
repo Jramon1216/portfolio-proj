@@ -24,8 +24,7 @@ export default function Contact(){
                 <div className={styles.textContainer}>
                     <p>
                         Thank you for visiting my portfolio! 
-                        Feel free to connect using the links above—I’d love to discuss potential collaborations or opportunities. 
-                        Looking forward to hearing from you soon!
+                        Let’s connect—I’m always excited to engage with fellow tech enthusiasts, explore innovative solutions, and make meaningful contributions to the world of software development!
                     </p>
                 </div>
             </section>
