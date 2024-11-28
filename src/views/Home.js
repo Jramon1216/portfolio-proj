@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
                 <img src={professionalPhoto} id={styles.aboutMeImg} alt="Professional Photo of Jonathan Ramon" />
             </section>
-            <section id={styles.projectsContainter}>
+            <section id={styles.projectsContainer}>
                 <h2 className={styles.subHeading} id={styles.projectsSubheading}>My Projects</h2>
                 <Projects />
             </section>

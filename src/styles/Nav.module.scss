@@ -37,11 +37,15 @@ li {
 }
 
 .linkStyles {
-    border-radius: 10px;
     transition: background-color 0.5s linear;
+    border-radius: 10px;
     text-decoration: none;
     color:white;
     padding: 10px;
+    &:hover {  
+        background-color: #FF1342;
+        cursor: pointer;
+    }
 }
 
 
