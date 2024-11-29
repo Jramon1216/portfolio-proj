@@ -1,26 +1,6 @@
-section {
-    margin-bottom: 20px;
-}
-
-.textContainer{
-    float: left;
-    width: 50%;
-}   
-
-.textContainer, h2{
-    margin:auto;
-}
-
-.imageContainer{
-    float: right;
-    border-style: ridge;
-}
-
-.svgLogos{
-    text-align: center;
-    clear: both;
-}
-
-.projectIntro{
-    text-align: center;
+.projectImg {
+    padding-right: 10px;
+    border-right: solid grey 2px;
+    height: 400px;
+    width: 500px;
 }
