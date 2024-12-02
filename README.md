@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Jonathan Ramon's Web Portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal project of mine to highlight my skills and projects. This project was made with react and using libraries like materialUI,classNames, and emotion. Overtime I plan to add more projects and skills
+
+------
+## Planned features
+- Light mode  
+- Alternate text option for easier reading
+- Email contact option
+- Mobile support
+
 
 ## Available Scripts
 
