@@ -11,6 +11,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
+  border-bottom:solid  #66FF66;
 
   #aboutMeDiv {
     flex: 1;
@@ -29,10 +31,26 @@
     flex: 0 0 auto;
     max-width: 484px;
     max-height: 850px;
+    border-radius: 5px;
+    border: 5px solid #66FF66;
   }
+
+  #skillsSVGContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+
+    .skillSVG {
+      margin: 10px;
+    }
+  }
+
 }
 
 #projectsContainer {
+  padding-bottom: 20px;
+  border-bottom: solid #66FF66;
   #projecsSubHeading {
     margin: 50px 0;
   }
