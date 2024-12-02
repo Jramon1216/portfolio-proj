@@ -7,6 +7,8 @@ import Contact from "./Contact";
 /**
     MY PROJECTS SECTION
     * Look into a light mode feature (low priority)
+    TODO: ADD BORDERS TO CONTENT
+    TODO: WORK ON FINDING A GOOD GREEN FONT COLOT
 */
 
 export default function Home() {
