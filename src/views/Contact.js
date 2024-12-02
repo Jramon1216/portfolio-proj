@@ -4,19 +4,25 @@ import linkedInSVG from '../assets/svg/linkedIn.svg';
 import githubSVG from '../assets/svg/github.svg';
 import emailSVG from '../assets/svg/email.svg';
 
-/**
- 
- */
+
 
 export default function Contact(){
+
+
     return(
         <>
             <h1>Contact Me!</h1>
             <section>
                 <div className={styles.imgContainer}>
-                    <img src={linkedInSVG} alt="LinkedIn Logo"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/365515/linkedin-logo-thin */}
-                    <img src={githubSVG} alt="Github Logo"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/447165/github-outline */}
-                    <img src={emailSVG} alt="Email Icon"/> {/*TODO: REPLACE THIS SVG WITH THE SAME ONE BUT WITH A TRACE COLOR MATCHING THE SITE -> https://www.svgrepo.com/svg/498800/email */}
+                    <a href="https://www.linkedin.com/in/jonathan-ramon-a66b281a3">
+                        <img src={linkedInSVG} alt="LinkedIn Logo"/>
+                    </a>
+                    <a href="https://github.com/Jramon1216">
+                        <img src={githubSVG} alt="Github Logo"/> 
+                    </a>
+                    {/* <a>
+                        <img src={emailSVG} alt="Email Icon"/> 
+                    </a> */}
                 </div>
             </section>
             <hr width={1000}></hr>
