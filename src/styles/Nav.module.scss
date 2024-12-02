@@ -6,7 +6,7 @@ header{
     z-index: 1000;
     background-color: black;
     border-bottom: 3px;
-    border-bottom-color: #FF1342;
+    border-bottom-color: #66FF66;
     border-bottom-style: solid;
 }
 
@@ -20,9 +20,6 @@ nav{
     
 }
 
-h1{
-    color: white
-}
 
 ul{ 
     align-items: center;
@@ -40,10 +37,11 @@ li {
     transition: background-color 0.5s linear;
     border-radius: 10px;
     text-decoration: none;
-    color:white;
+    color: #66FF66;
     padding: 10px;
-    &:hover {  
-        background-color: #FF1342;
+    &:hover {
+          
+        background-color: #66FF66;
         cursor: pointer;
     }
 }

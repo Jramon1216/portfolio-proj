@@ -14,6 +14,7 @@ import cardFlip from '../assets/img/project/cardFlip.png'
 const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
+    backgroundColor: 'black',
     border: `1px solid ${theme.palette.divider}`,
     '&:not(:last-child)': {
         borderBottom: 0,
@@ -48,7 +49,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
     borderTop: '1px solid rgba(0, 0, 0, .125)',
     display: 'flex',
     alignItems: 'center',
-    gap: theme.spacing(2), 
+    gap: theme.spacing(2),
 }));
 
 export default function Projects() {
@@ -65,9 +66,11 @@ export default function Projects() {
                     <Typography>Python Django ToDo List w/ Authentication</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src= {todo} className={styles.projectImg}></img>
+                    <a href="https://github.com/Jramon1216/Python-Django-ToDo-List">
+                        <img src={todo} className={styles.projectImg} alt="Python Django ToDo List Project Image"/>
+                    </a>
                     <Typography>
-                        This project was my first experience using Django's class-based views and Template Language to create a static web page. 
+                        This project was my first experience using Django's class-based views and Template Language to create a static web page.
                         I implemented some unique features and took a different approach from the tutorial to deepen my understanding of Django.
                     </Typography>
                 </AccordionDetails>
@@ -77,9 +80,11 @@ export default function Projects() {
                     <Typography>Simple Chat APP</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src= {simpleChat} className={styles.projectImg}></img>
+                    <a href="https://github.com/Jramon1216/simple-website">
+                        <img src={simpleChat} className={styles.projectImg} alt="Simple Chat App Project Image"/>
+                    </a>
                     <Typography>
-                        Developed as part of a job interview, this project is a front-end mock-up of a messaging service using Django endpoints. 
+                        Developed as part of a job interview, this project is a front-end mock-up of a messaging service using Django endpoints.
                         Built in just 5 days, it employs axios and async-await for backend communication and message retrieval. As well as a couple AWS services like EC2, S3, RDS, and CDN.
                         I plan to make another version with a local API to simulate this project as well as add some more features
                     </Typography>
@@ -90,7 +95,9 @@ export default function Projects() {
                     <Typography>Card Flip demo</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src= {cardFlip} className={styles.projectImg}></img>
+                    <a href="https://github.com/Jramon1216/card-flip-demo">
+                        <img src={cardFlip} className={styles.projectImg} alt=" Card Flip Demo Project Image"/>
+                    </a>
                     <Typography>
                         Created as a suggestion for a colleague's portfolio, this Card Flip demo showcases interactive and engaging front-end animation.
                     </Typography>
