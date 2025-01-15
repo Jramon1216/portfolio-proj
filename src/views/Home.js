@@ -13,6 +13,7 @@ import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
 import angSVG from "../assets/svg/angular-svgrepo-com.svg";
 import javaSVG from "../assets/svg/java-svgrepo-com.svg";
 import gitSVG from "../assets/svg/git-svgrepo-com.svg";
+import Tooltip from '@mui/material/Tooltip';
 
 /**
     MY PROJECTS SECTION
@@ -36,19 +37,48 @@ export default function Home() {
 
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
-                    <div id={styles.skillsSVGContainer} >
-                        <img src={djSVG} className={styles.skillSVG} />
-                        <img src={reactSVG} className={styles.skillSVG} />
-                        <img src={figmaSVG} className={styles.skillSVG} />
-                        <img src={sqlSVG} className={styles.skillSVG} />
-                        <img src={scssSVG} className={styles.skillSVG} />
-                        <img src={postSVG} className={styles.skillSVG} />
-                        <img src={dockSVG} className={styles.skillSVG} />
-                        <img src={angSVG} className={styles.skillSVG} />
-                        <img src={javaSVG} className={styles.skillSVG} />
-                        <img src={gitSVG} className={styles.skillSVG} />
+                    <div id={styles.skillsSVGContainer}>
+                        <Tooltip title="Django" arrow> 
+                            <img src={djSVG} className={styles.skillSVG} alt="Python Django" />
+                        </Tooltip>
+                        <Tooltip title="React" arrow>
+                            <img src={reactSVG} className={styles.skillSVG} alt="React" />
+                        </Tooltip>
+                        <Tooltip title="Figma" arrow>
+                            <img src={figmaSVG} className={styles.skillSVG} alt="Figma" />
+                        </Tooltip>
+                        <Tooltip title="SQL" arrow>
+                            <img src={sqlSVG} className={styles.skillSVG} alt="SQL" />
+                        </Tooltip>
+                        <Tooltip title="SASS" arrow>
+                            <img src={scssSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+                        <Tooltip title="PostgreSQL" arrow>
+                            <img src={postSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+                        <Tooltip title="Docker" arrow>
+                            <img src={dockSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+                        <Tooltip title="Angular" arrow>
+                            <img src={angSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+                        <Tooltip title="Java" arrow>
+                            <img src={javaSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+                        <Tooltip title="Git" arrow>
+                            <img src={gitSVG} className={styles.skillSVG} alt="" />
+                        </Tooltip>
+
+
+
+
+
+
+
+
+
                     </div>
-                    <p className={styles.subHeading} style={{textDecoration: 'None'}}>With many more to come!</p>
+                    <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>
                     {
                         /*
                             Django - https://www.svgrepo.com/svg/508908/django
