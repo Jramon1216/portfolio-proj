@@ -68,31 +68,8 @@ export default function Home() {
                         <Tooltip title="Git" arrow>
                             <img src={gitSVG} className={styles.skillSVG} alt="" />
                         </Tooltip>
-
-
-
-
-
-
-
-
-
                     </div>
                     <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>
-                    {
-                        /*
-                            Django - https://www.svgrepo.com/svg/508908/django
-                            React  - https://www.svgrepo.com/svg/521303/react-16
-                            Figma  - https://www.svgrepo.com/svg/532271/figma
-                            SQL  - https://www.svgrepo.com/svg/392345/extension-file-format-sql-document-file-format 
-                            SCSS - https://www.svgrepo.com/svg/374068/scss
-                            PostgreSQL - https://www.svgrepo.com/svg/473760/postgresql
-                            Docker - https://www.svgrepo.com/svg/521276/docker-16
-                            Angular - https://www.svgrepo.com/svg/368493/angular
-                            Java - https://www.svgrepo.com/svg/449120/java
-                            Git - https://www.svgrepo.com/svg/509966/git
-                        */
-                    }
                 </div>
                 <img src={professionalPhoto} id={styles.aboutMeImg} alt="Professional Photo of Jonathan Ramon" />
             </section>
