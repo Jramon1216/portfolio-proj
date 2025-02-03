@@ -14,10 +14,10 @@ export default function Contact(){
             <h1>Contact Me!</h1>
             <section>
                 <div className={styles.imgContainer}>
-                    <a href="https://www.linkedin.com/in/jonathan-ramon-a66b281a3">
+                    <a href="https://www.linkedin.com/in/jonathan-ramon-a66b281a3" target='_blank' rel="noopener noreferrer">
                         <img src={linkedInSVG} alt="LinkedIn Logo"/>
                     </a>
-                    <a href="https://github.com/Jramon1216">
+                    <a href="https://github.com/Jramon1216" target='_blank' rel="noopener noreferrer">
                         <img src={githubSVG} alt="Github Logo"/> 
                     </a>
                     {/* <a>
