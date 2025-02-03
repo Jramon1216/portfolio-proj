@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import styles from '../styles/Projects.module.scss';
 import simpleChat from '../assets/img/project/simpleChat.png'
 import todo from '../assets/img/project/todo.png'
-import cardFlip from '../assets/img/project/cardFlip.png'
+import AWSDemo from '../assets/video/AWS Citizens Demo.mp4'
 
 
 const Accordion = styled((props) => (
@@ -66,8 +66,8 @@ export default function Projects() {
                     <Typography>Python Django ToDo List w/ Authentication</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <a href="https://github.com/Jramon1216/Python-Django-ToDo-List">
-                        <img src={todo} className={styles.projectImg} alt="Python Django ToDo List Project Image"/>
+                    <a href="https://github.com/Jramon1216/Python-Django-ToDo-List" target='_blank' rel="noopener noreferrer">
+                        <img src={todo} className={styles.projectImg} alt="Python Django ToDo List Project Image" />
                     </a>
                     <Typography>
                         This project was my first experience using Django's class-based views and Template Language to create a static web page.
@@ -77,12 +77,13 @@ export default function Projects() {
             </Accordion>
             <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                 <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                    <Typography>Simple Chat APP</Typography>
+                    <Typography>Simple Chat App</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <a href="https://github.com/Jramon1216/simple-website">
-                        <img src={simpleChat} className={styles.projectImg} alt="Simple Chat App Project Image"/>
+                    <a href="https://github.com/Jramon1216/simple-website" target='_blank' rel="noopener noreferrer">
+                        <img src={simpleChat} className={styles.projectImg} alt="Simple Chat App Project Image" />
                     </a>
+
                     <Typography>
                         Developed as part of a job interview, this project is a front-end mock-up of a messaging service using Django endpoints.
                         Built in just 5 days, it employs axios and async-await for backend communication and message retrieval. As well as a couple AWS services like EC2, S3, RDS, and CDN.
@@ -92,14 +93,25 @@ export default function Projects() {
             </Accordion>
             <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                    <Typography>Card Flip demo</Typography>
+                    <Typography>AWS Citizens</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <a href="https://github.com/Jramon1216/card-flip-demo">
-                        <img src={cardFlip} className={styles.projectImg} alt=" Card Flip Demo Project Image"/>
-                    </a>
+                    <div>
+                        <video className={styles.projectImg} controls>
+                            <source src={AWSDemo} type='video/mp4'></source>
+                        </video>
+                        <a href="https://github.com/Jramon1216/AWS-portfolio-proj" target='_blank' rel="noopener noreferrer">
+                            <p style={{
+                                "text-align": "center",
+                                "padding-right": "10px"
+                            }}>Project link</p>
+                        </a>
+                    </div>
+
                     <Typography>
-                        Created as a suggestion for a colleague's portfolio, this Card Flip demo showcases interactive and engaging front-end animation.
+                        A project completed during my time at <a href='https://perscholas.org/' target='_blank' rel="noopener norefferer">Per Scholas</a> to demonstrate my understanding of AWS and its technologies.
+                        Scan a unique QR code to instantly access a user's profile with details like their name and email. 
+                        This web app is built with React and leverages AWS technologies such as S3 for storage, API Gateway for routing requests, DynamoDB for data storage, and Lambda for serverless processing.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
