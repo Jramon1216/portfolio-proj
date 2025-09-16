@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-proj/static/css/main.30878b20.css",
+    "main.css": "/portfolio-proj/static/css/main.b54319ba.css",
     "main.js": "/portfolio-proj/static/js/main.ad02b87c.js",
     "static/js/787.ed937df2.chunk.js": "/portfolio-proj/static/js/787.ed937df2.chunk.js",
     "static/media/AWS Citizens Demo.mp4": "/portfolio-proj/static/media/AWS Citizens Demo.51e2c35fa1bb01ca2e27.mp4",
@@ -8,7 +8,6 @@
     "static/media/simpleChat.png": "/portfolio-proj/static/media/simpleChat.b3cd6a103d0f92679ad0.png",
     "static/media/todo.png": "/portfolio-proj/static/media/todo.d858e05d945ee18ec7df.png",
     "static/media/postgresql-svgrepo-com.svg": "/portfolio-proj/static/media/postgresql-svgrepo-com.277693decdb389d8686efb0b28d9c78f.svg",
-    "static/media/Scanline.png": "/portfolio-proj/static/media/Scanline.1ee51b891fc0d2a18fa8.png",
     "static/media/react-16-svgrepo-com.svg": "/portfolio-proj/static/media/react-16-svgrepo-com.265e3ba31156dc4e3114c811e1c2eec7.svg",
     "static/media/docker-16-svgrepo-com.svg": "/portfolio-proj/static/media/docker-16-svgrepo-com.f233c9391779a986a56df5e69ffbabf3.svg",
     "static/media/angular-svgrepo-com.svg": "/portfolio-proj/static/media/angular-svgrepo-com.9f230c24bc48877e14b332850c0e55e3.svg",
@@ -22,12 +21,12 @@
     "static/media/java-svgrepo-com.svg": "/portfolio-proj/static/media/java-svgrepo-com.a7963884cee882c30b7948b226067e01.svg",
     "index.html": "/portfolio-proj/index.html",
     "static/media/email.svg": "/portfolio-proj/static/media/email.ffcbfcb0bab6c8162366306262c1aa3c.svg",
-    "main.30878b20.css.map": "/portfolio-proj/static/css/main.30878b20.css.map",
+    "main.b54319ba.css.map": "/portfolio-proj/static/css/main.b54319ba.css.map",
     "main.ad02b87c.js.map": "/portfolio-proj/static/js/main.ad02b87c.js.map",
     "787.ed937df2.chunk.js.map": "/portfolio-proj/static/js/787.ed937df2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30878b20.css",
+    "static/css/main.b54319ba.css",
     "static/js/main.ad02b87c.js"
   ]
 }
