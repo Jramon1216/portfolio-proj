@@ -8,4 +8,4 @@ This is a personal project of mine to highlight my skills and projects. This pro
 - Alternate text option for easier reading
 - Email contact option
 - Mobile support
-
+- NGINX reverse proxy implementation
