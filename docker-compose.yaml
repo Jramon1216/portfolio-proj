@@ -8,10 +8,11 @@ services:
     stdin_open: true    
     tty: true 
     environment:
-      - CHOKIDAR_USEPOLLING=true    
-      - WATCHPACK_POLLING=true      
-      - FAST_REFRESH=true           
-      - POLLING_INTERVAL=100        
+      - CHOKIDAR_USEPOLLING=${CHOKIDAR_USEPOLLING}    
+      - WATCHPACK_POLLING=${WATCHPACK_POLLING}      
+      - FAST_REFRESH=${FAST_REFRESH}           
+      - POLLING_INTERVAL=${POLLING_INTERVAL}     
+      - WDS_SOCKET_PORT=${WDS_SOCKET_PORT}  
     volumes:
     - .:/app
     - /app/node_modules
