@@ -6,7 +6,5 @@ This is a personal project of mine to highlight my skills and projects. This pro
 ## Planned features
 - Light mode  
 - Alternate text option for easier reading
-- Email contact option
 - Mobile support
-- NGINX reverse proxy implementation
 - Dev container creation
