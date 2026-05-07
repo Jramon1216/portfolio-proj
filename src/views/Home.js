@@ -11,8 +11,9 @@ import scssSVG from "../assets/svg/scss-svgrepo-com.svg";
 import postSVG from "../assets/svg/postgresql-svgrepo-com.svg";
 import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
 import angSVG from "../assets/svg/angular-svgrepo-com.svg";
-import javaSVG from "../assets/svg/java-svgrepo-com.svg";
+import dotnetSVG from "../assets/svg/dotnet.svg";
 import gitSVG from "../assets/svg/git-svgrepo-com.svg";
+import azuredevopsSVG from "../assets/svg/azuredevops.svg"
 import Tooltip from '@mui/material/Tooltip';
 
 /**
@@ -37,7 +38,7 @@ export default function Home() {
 
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
-                    <div id={styles.skillsSVGContainer}>
+                    <div id={styles.skillsSVGContainer}> {/* First row of SVG skills*/}
                         <Tooltip title="Django" arrow> 
                             <img src={djSVG} className={styles.skillSVG} alt="Python Django" />
                         </Tooltip>
@@ -62,11 +63,16 @@ export default function Home() {
                         <Tooltip title="Angular" arrow>
                             <img src={angSVG} className={styles.skillSVG} alt="" />
                         </Tooltip>
-                        <Tooltip title="Java" arrow>
-                            <img src={javaSVG} className={styles.skillSVG} alt="" />
+                        <Tooltip title=".NET" arrow>
+                            <img src={dotnetSVG} className={styles.skillSVG} alt=".NET" />
                         </Tooltip>
                         <Tooltip title="Git" arrow>
-                            <img src={gitSVG} className={styles.skillSVG} alt="" />
+                            <img src={gitSVG} className={styles.skillSVG} alt="Git" />
+                        </Tooltip>
+                    </div>
+                    <div id={styles.skillsSVGContainer}> {/* Second row of SVG skills*/}
+                        <Tooltip title="Azure DevOps" arrow>
+                            <img src={azuredevopsSVG} className={styles.skillSVG} alt="Azure DevOps" />
                         </Tooltip>
                     </div>
                     <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>
