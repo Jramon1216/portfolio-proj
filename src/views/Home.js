@@ -52,16 +52,16 @@ export default function Home() {
                             <img src={sqlSVG} className={styles.skillSVG} alt="SQL" />
                         </Tooltip>
                         <Tooltip title="SASS" arrow>
-                            <img src={scssSVG} className={styles.skillSVG} alt="" />
+                            <img src={scssSVG} className={styles.skillSVG} alt="SASS" />
                         </Tooltip>
                         <Tooltip title="PostgreSQL" arrow>
-                            <img src={postSVG} className={styles.skillSVG} alt="" />
+                            <img src={postSVG} className={styles.skillSVG} alt="PostgreSQL" />
                         </Tooltip>
                         <Tooltip title="Docker" arrow>
-                            <img src={dockSVG} className={styles.skillSVG} alt="" />
+                            <img src={dockSVG} className={styles.skillSVG} alt="Docker" />
                         </Tooltip>
                         <Tooltip title="Angular" arrow>
-                            <img src={angSVG} className={styles.skillSVG} alt="" />
+                            <img src={angSVG} className={styles.skillSVG} alt="Angular" />
                         </Tooltip>
                         <Tooltip title=".NET" arrow>
                             <img src={dotnetSVG} className={styles.skillSVG} alt=".NET" />
