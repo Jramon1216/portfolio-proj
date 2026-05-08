@@ -3,17 +3,18 @@ import styles from '../styles/Home.module.scss'
 import professionalPhoto from '../assets/img/professionalPhoto.png';
 import Projects from "./Projects";
 import Contact from "./Contact";
-import djSVG from "../assets/svg/django-svgrepo-com.svg";
-import reactSVG from "../assets/svg/react-16-svgrepo-com.svg";
-import figmaSVG from "../assets/svg/figma-svgrepo-com.svg";
-import sqlSVG from "../assets/svg/sql-svgrepo-com.svg";
-import scssSVG from "../assets/svg/scss-svgrepo-com.svg";
-import postSVG from "../assets/svg/postgresql-svgrepo-com.svg";
-import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
 import angSVG from "../assets/svg/angular-svgrepo-com.svg";
-import dotnetSVG from "../assets/svg/dotnet.svg";
-import gitSVG from "../assets/svg/git-svgrepo-com.svg";
 import azuredevopsSVG from "../assets/svg/azuredevops.svg"
+import djSVG from "../assets/svg/django-svgrepo-com.svg";
+import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
+import dotnetSVG from "../assets/svg/dotnet.svg";
+import figmaSVG from "../assets/svg/figma-svgrepo-com.svg";
+import gitSVG from "../assets/svg/git-svgrepo-com.svg";
+import postSVG from "../assets/svg/postgresql-svgrepo-com.svg";
+import reactSVG from "../assets/svg/react-16-svgrepo-com.svg";
+import scssSVG from "../assets/svg/scss-svgrepo-com.svg";
+import snowflakeSVG from "../assets/svg/SNOW.svg";
+import ssmsSVG from "../assets/svg/msqls.svg";
 import Tooltip from '@mui/material/Tooltip';
 
 /**
@@ -37,6 +38,9 @@ export default function Home() {
 
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
+                    {/** 
+                     //  ? SVG divs are getting too long, maybe turn it into a component ?
+                    */}
                     <div id={styles.skillsSVGContainer}> {/* First row of SVG skills*/}
                         <Tooltip title="Django" arrow> 
                             <img src={djSVG} className={styles.skillSVG} alt="Python Django" />
@@ -47,8 +51,8 @@ export default function Home() {
                         <Tooltip title="Figma" arrow>
                             <img src={figmaSVG} className={styles.skillSVG} alt="Figma" />
                         </Tooltip>
-                        <Tooltip title="SQL" arrow>
-                            <img src={sqlSVG} className={styles.skillSVG} alt="SQL" />
+                        <Tooltip title="Snowflake" arrow>
+                            <img src={snowflakeSVG} className={styles.skillSVG} alt="Snowflake" />
                         </Tooltip>
                         <Tooltip title="SASS" arrow>
                             <img src={scssSVG} className={styles.skillSVG} alt="SASS" />
@@ -73,7 +77,9 @@ export default function Home() {
                         <Tooltip title="Azure DevOps" arrow>
                             <img src={azuredevopsSVG} className={styles.skillSVG} alt="Azure DevOps" />
                         </Tooltip>
-                    {/* //TODO: Add SVG's for SQL server and Snowflake */}
+                        <Tooltip title="SQL Server/SSMS" arrow>
+                            <img src={ssmsSVG} className={styles.skillSVG} alt="SQL Server/SSMS"/>
+                        </Tooltip>
                     </div>
                     <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>
                 </div>
