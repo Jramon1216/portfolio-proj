@@ -30,7 +30,7 @@ export default function Contact(){
                 <div className={styles.textContainer}>
                     <p>
                         Thank you for visiting my portfolio! 
-                        Let’s connect—I’m always excited to engage with fellow tech enthusiasts, explore innovative solutions, and make meaningful contributions to the world of software development!
+                        Let’s connect! I’m always excited to engage with fellow developers, explore innovative solutions, learn new technologies, and make meaningful contributions to the world of software development!
                     </p>
                 </div>
             </section>

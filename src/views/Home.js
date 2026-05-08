@@ -3,16 +3,18 @@ import styles from '../styles/Home.module.scss'
 import professionalPhoto from '../assets/img/professionalPhoto.png';
 import Projects from "./Projects";
 import Contact from "./Contact";
-import djSVG from "../assets/svg/django-svgrepo-com.svg";
-import reactSVG from "../assets/svg/react-16-svgrepo-com.svg";
-import figmaSVG from "../assets/svg/figma-svgrepo-com.svg";
-import sqlSVG from "../assets/svg/sql-svgrepo-com.svg";
-import scssSVG from "../assets/svg/scss-svgrepo-com.svg";
-import postSVG from "../assets/svg/postgresql-svgrepo-com.svg";
-import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
 import angSVG from "../assets/svg/angular-svgrepo-com.svg";
-import javaSVG from "../assets/svg/java-svgrepo-com.svg";
+import azuredevopsSVG from "../assets/svg/azuredevops.svg"
+import djSVG from "../assets/svg/django-svgrepo-com.svg";
+import dockSVG from "../assets/svg/docker-16-svgrepo-com.svg";
+import dotnetSVG from "../assets/svg/dotnet.svg";
+import figmaSVG from "../assets/svg/figma-svgrepo-com.svg";
 import gitSVG from "../assets/svg/git-svgrepo-com.svg";
+import postSVG from "../assets/svg/postgresql-svgrepo-com.svg";
+import reactSVG from "../assets/svg/react-16-svgrepo-com.svg";
+import scssSVG from "../assets/svg/scss-svgrepo-com.svg";
+import snowflakeSVG from "../assets/svg/SNOW.svg";
+import ssmsSVG from "../assets/svg/msqls.svg";
 import Tooltip from '@mui/material/Tooltip';
 
 /**
@@ -29,15 +31,17 @@ export default function Home() {
                     <p id={styles.aboutMeText}>
                         Welcome to my webpage!
 
-                        I am a results-oriented Full Stack Web Developer with a solid foundation in cloud computing and software development.
+                        I am a results-oriented Full Stack Developer with a solid foundation in cloud computing and software development.
                         Skilled in front and backend development, I specialize in creating scalable, reliable, and efficient solutions that drive user engagement and streamline data retrieval.
-                        In my recent roles, I’ve successfully managed bi-weekly releases, developed frontend features with React, and engineered backend solutions with Django, which have enhanced application performance and user satisfaction.
-                        With an AWS Cloud Practitioner certification, I bring hands-on experience in deploying scalable applications on the cloud and managing resources to maximize performance.
-                        My expertise extends across various technologies, including React, Django, and AWS, and I'm passionate about implementing strategies that reduce post-deployment issues and ensure the highest code quality.
+                        In my recent roles, I’ve successfully managed weekly releases using Azure DevOps, lead daily scrums, developed frontend features with React, engineered backend solutions with Django and FastAPI, managed databases using SQL Server and Snowflake, and gained experience working on applications using the .NET framework, which have enhanced application performance and user satisfaction.
+                        My expertise extends across various technologies which I am passionate about extending my experience with, as well as learning new technologies to strengthen my skills as a developer.
 
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
-                    <div id={styles.skillsSVGContainer}>
+                    {/** 
+                     //  ? SVG divs are getting too long, maybe turn it into a component ?
+                    */}
+                    <div id={styles.skillsSVGContainer}> {/* First row of SVG skills*/}
                         <Tooltip title="Django" arrow> 
                             <img src={djSVG} className={styles.skillSVG} alt="Python Django" />
                         </Tooltip>
@@ -47,26 +51,34 @@ export default function Home() {
                         <Tooltip title="Figma" arrow>
                             <img src={figmaSVG} className={styles.skillSVG} alt="Figma" />
                         </Tooltip>
-                        <Tooltip title="SQL" arrow>
-                            <img src={sqlSVG} className={styles.skillSVG} alt="SQL" />
+                        <Tooltip title="Snowflake" arrow>
+                            <img src={snowflakeSVG} className={styles.skillSVG} alt="Snowflake" />
                         </Tooltip>
                         <Tooltip title="SASS" arrow>
-                            <img src={scssSVG} className={styles.skillSVG} alt="" />
+                            <img src={scssSVG} className={styles.skillSVG} alt="SASS" />
                         </Tooltip>
                         <Tooltip title="PostgreSQL" arrow>
-                            <img src={postSVG} className={styles.skillSVG} alt="" />
+                            <img src={postSVG} className={styles.skillSVG} alt="PostgreSQL" />
                         </Tooltip>
                         <Tooltip title="Docker" arrow>
-                            <img src={dockSVG} className={styles.skillSVG} alt="" />
+                            <img src={dockSVG} className={styles.skillSVG} alt="Docker" />
                         </Tooltip>
                         <Tooltip title="Angular" arrow>
-                            <img src={angSVG} className={styles.skillSVG} alt="" />
+                            <img src={angSVG} className={styles.skillSVG} alt="Angular" />
                         </Tooltip>
-                        <Tooltip title="Java" arrow>
-                            <img src={javaSVG} className={styles.skillSVG} alt="" />
+                        <Tooltip title=".NET" arrow>
+                            <img src={dotnetSVG} className={styles.skillSVG} alt=".NET" />
                         </Tooltip>
                         <Tooltip title="Git" arrow>
-                            <img src={gitSVG} className={styles.skillSVG} alt="" />
+                            <img src={gitSVG} className={styles.skillSVG} alt="Git" />
+                        </Tooltip>
+                    </div>
+                    <div id={styles.skillsSVGContainer}> {/* Second row of SVG skills*/}
+                        <Tooltip title="Azure DevOps" arrow>
+                            <img src={azuredevopsSVG} className={styles.skillSVG} alt="Azure DevOps" />
+                        </Tooltip>
+                        <Tooltip title="SQL Server/SSMS" arrow>
+                            <img src={ssmsSVG} className={styles.skillSVG} alt="SQL Server/SSMS"/>
                         </Tooltip>
                     </div>
                     <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>

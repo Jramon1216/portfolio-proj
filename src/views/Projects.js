@@ -102,8 +102,8 @@ export default function Projects() {
                         </video>
                         <a href="https://github.com/Jramon1216/AWS-portfolio-proj" target='_blank' rel="noopener noreferrer">
                             <p style={{
-                                "text-align": "center",
-                                "padding-right": "10px"
+                                "textAlign": "center",
+                                "paddingRight": "10px"
                             }}>Project link</p>
                         </a>
                     </div>
