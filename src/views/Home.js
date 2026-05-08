@@ -30,11 +30,10 @@ export default function Home() {
                     <p id={styles.aboutMeText}>
                         Welcome to my webpage!
 
-                        I am a results-oriented Full Stack Web Developer with a solid foundation in cloud computing and software development.
+                        I am a results-oriented Full Stack Developer with a solid foundation in cloud computing and software development.
                         Skilled in front and backend development, I specialize in creating scalable, reliable, and efficient solutions that drive user engagement and streamline data retrieval.
-                        In my recent roles, I’ve successfully managed bi-weekly releases, developed frontend features with React, and engineered backend solutions with Django, which have enhanced application performance and user satisfaction.
-                        With an AWS Cloud Practitioner certification, I bring hands-on experience in deploying scalable applications on the cloud and managing resources to maximize performance.
-                        My expertise extends across various technologies, including React, Django, and AWS, and I'm passionate about implementing strategies that reduce post-deployment issues and ensure the highest code quality.
+                        In my recent roles, I’ve successfully managed weekly releases using Azure DevOps, lead daily scrums, developed frontend features with React, engineered backend solutions with Django and FastAPI, managed databases using SQL Server and Snowflake, and gained experience working on applications using the .NET framework, which have enhanced application performance and user satisfaction.
+                        My expertise extends across various technologies which I am passionate about extending my experience with, as well as learning new technologies to strengthen my skills as a developer.
 
                     </p>
                     <h2 className={styles.subHeading}>Skills</h2>
@@ -74,6 +73,7 @@ export default function Home() {
                         <Tooltip title="Azure DevOps" arrow>
                             <img src={azuredevopsSVG} className={styles.skillSVG} alt="Azure DevOps" />
                         </Tooltip>
+                    {/* //TODO: Add SVG's for SQL server and Snowflake */}
                     </div>
                     <p className={styles.subHeading} style={{ textDecoration: 'None' }}>With many more to come!</p>
                 </div>
