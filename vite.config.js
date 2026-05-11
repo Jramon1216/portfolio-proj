@@ -4,6 +4,7 @@ import svgr from 'vite-plugin-svgr';
 
 export default defineConfig(() => {
     return {
+        base: '/portfolio-proj/',
         server: {
             open: true,
             host: '0.0.0.0',
