@@ -1,4 +1,4 @@
-import './App.module.scss';
+import './App.scss';
 import { Nav, Home } from './views'
 
 
